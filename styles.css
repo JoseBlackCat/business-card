@@ -1,0 +1,26 @@
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #1b1b1b;
+    box-shadow: 0 0 0 #1b1b1b;
+    transition: all 0.3s ease-in-out;
+    animation: shadow;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 0 #000;
+}
